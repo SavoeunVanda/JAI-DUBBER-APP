@@ -1,0 +1,33 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+release/
+scratch/
+__pycache__/
+*.pyc
+
+# Local config & sensitive storage
+scripts/bot_licenses_store.json
+server/autodub/logs/
+server/autodub/config.json
+
+# Large binaries exceeding GitHub 100MB limit
+bin/ffmpeg.exe
+bin/ffprobe.exe
+
+# Temporary test media & outputs
+*.mp4
+*.mkv
+*.wav
+*.mp3
+*.bin
+test_*.png
+crop*.png
+img*.png
+test_*.ass
+subs_concat.txt

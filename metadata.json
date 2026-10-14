@@ -1,0 +1,6 @@
+{
+  "name": "JAI DUBBER",
+  "description": "AI Video Dubbing Application to Khmer (ភាសាខ្មែរ) with Edge TTS, subtitle editor, timeline controls, multi-layer text overlays, blur censor masks, and right-side style inspector panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
